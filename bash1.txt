@@ -1,0 +1,30 @@
+Задача 1
+1.  $ pwd
+2.  $ mkdir test1
+3.  $ cd /c/Users/User/test1
+4.  $ touch file1.txt file2.txt file3.txt
+5.  $ ls
+6.  $ cd ..
+7.  $ mkdir test2
+8.  $ rmdir test2
+9.  $ rm test1/file2.txt
+10. $ mkdir test3
+    $ touch test3/file1.txt test3/file2.txt
+11. $ rm -r test3
+12. $ mkdir test4
+13. $ mv test1/file1.txt test4
+    $ mv test1/file3.txt test4
+14. $ echo line >test4/file1.txt
+    $ echo line >>test4/file1.txt
+    $ echo line >>test4/file1.txt
+15. $ cat test4/file1.txt
+16. $ echo line >test4/file3.txt
+    $ echo line >>test4/file3.txt
+    $ echo line >>test4/file3.txt
+17. $ cat test4/file1.txt test4/file3.txt
+18. $ vim test4/file1.txt
+    :wq
+    $ cat test4/file1.txt
+    Privet
+    World
+    Heloo!

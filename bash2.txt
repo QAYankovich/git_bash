@@ -1,0 +1,28 @@
+Задача 2
+1.  $ mkdir test_3
+2.  $  echo "row1
+> row2
+> row3
+> row4" >> test_3/file4.txt
+    $  echo "row1
+> row2
+> row3
+> row4" >> test_3/file5.txt
+    $  echo "row1
+> row2
+> row3
+> row4" >> test_3/file6.txt
+3.  $ grep "row2" test_3/file5.txt
+4.  $ grep -r "row" test_3
+5.  $ grep -c "row" test_3/file6.txt
+6.  $ find ./test_3 -name "file5.txt"
+7.  $ find ./test_3 -name "file5.txt" -delete
+8.  $ echo test >> test_3/file4.txt
+9.  $ sed -i 's/test/fail/g' test_3/file4.txt
+10. $ echo test >> test_3/file4.txt
+11. $ ps aux
+12. $ kill 666
+13. $ ping rusau.net
+14. $ ping -c 5 rusau.net
+15. $ curl -X GET 'https://petstore.swagger.io/v2/pet/findByStatus?status=sold'
+16. $ curl -X POST "https://petstore.swagger.io/v2/user" -H "accept: application/json" -H "Content-Type: application/json" -d '{"id": 777, "username": "finy", "firstName": "bober", "lastName": "kyrwa", "email": "itme@example.com", "password": "nopas", "phone": "888777999", "userStatus": 0}'
